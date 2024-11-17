@@ -1,0 +1,7 @@
+<meta>
+<oop>true</oop>
+    <script src = 'Nego_C.lua' type = 'client' cache = 'false' />
+    <script src = 'Nego_G.lua' type = 'shared' cache = 'false' />
+    <script src = 'Nego_S.lua' type = 'server' />
+    <min_mta_version server="1.5.4-9.11342"/>
+</meta>

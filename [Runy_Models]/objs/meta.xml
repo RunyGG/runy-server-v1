@@ -1,0 +1,11 @@
+﻿<meta>
+     <!-- CLIENTS -->
+     <script src = 'Nego_C.lua' type = 'client' cache = 'false' />
+
+     <!-- MODELS -->
+     <file src = 'models/*.col' cache = 'false' />
+     <file src = 'models/*.dff' cache = 'false' />
+     <file src = 'models/*.txd' cache = 'false' />
+
+
+</meta>

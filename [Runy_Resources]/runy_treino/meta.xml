@@ -1,0 +1,24 @@
+<meta>
+    <!-- Informações do recurso -->
+    <info name="Treinamento de Mira" version="1.0" author="Seu Nome" type="script" />
+
+    <!-- Scripts do lado do servidor -->
+    <script src="treinamento_server.lua" type="server"  cache="false"/>
+
+    <!-- Scripts do lado do cliente -->
+    <script src="treinamento_client.lua" type="client"  cache="false"/>
+
+    <!-- Scripts do lado do shared -->
+    <script src="treinamento_config.lua" type="shared"  cache="false"/>
+
+    <!-- Configurações adicionais, como imagens, arquivos de configuração, etc, se necessário -->
+    <!-- <file src="algumaImagem.png" /> -->
+
+    <!-- Outros metadados, como dependências, se necessário -->
+    <!-- <include resource="outroRecurso" /> -->
+
+    <!-- Configurações de permissões, se necessário -->
+    <aclrequest access="true">
+        <right name="general.ModifyOtherObjects" />
+    </aclrequest>
+</meta>

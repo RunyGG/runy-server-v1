@@ -1,0 +1,10 @@
+<meta>
+	<info author="Fn" version="1.0.0" name="Script Notify" type="script" />
+
+	<script src="client.lua" type="client"  cache="false"/>
+	<script src="server.lua" type="server"  cache="false"/>
+
+	<file src='files/fundo.png' cache="false" />
+	<file src='files/atencao.png' cache="false" />
+	<file src='files/font.ttf' cache="false" />
+</meta>

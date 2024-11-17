@@ -1,0 +1,69 @@
+<meta>
+    <info author="Runy" description="INV BATTLEROYALE" />
+
+    <script src="config.lua" type="shared" cache="false" />
+    <script src="sources/client/main.lua" type="client" cache="false" />
+    <script src="sources/server/main.lua" type="server" />
+    <script src="sources/shared/utils.lua" type="shared" cache="false" />
+    <script src="sources/shared/responsive.lua" type="client" cache="false" />
+
+    <file src="files/fonts/medium.ttf" />
+    <file src="files/fonts/regular.ttf" />
+    <file src="files/fonts/bold.ttf" />
+    <file src="files/fonts/light.ttf" />
+    <file src="files/fonts/black.ttf" />
+    <file src="files/fonts/semibold.ttf" />
+
+    <file src="files/imgs/base_select.png"  cache="false"/>
+    <file src="files/imgs/base.png"  cache="false"/>
+    <file src="files/imgs/qntd.png"  cache="false"/>
+    <file src="files/imgs/qntd_action.png"  cache="false"/>
+    <file src="files/imgs/roupas.png"  cache="false"/>
+    <file src="files/imgs/armamento.png"  cache="false"/>
+	<file src="files/imgs/roupas-select.png"  cache="false"/>
+    <file src="files/imgs/armamento-select.png"  cache="false"/>
+    <file src="files/imgs/info_cage.png"  cache="false"/>
+    <file src="files/imgs/bar.png"  cache="false"/>
+    <file src="files/imgs/shadow.png"  cache="false"/>
+    <file src="files/imgs/manageedits.png"  cache="false"/>
+    <file src="files/imgs/button.png"  cache="false"/>
+	<file src="files/imgs/button2.png"  cache="false"/>
+    <file src="files/imgs/action.png"  cache="false"/>
+    <file src="files/imgs/slotaction.png" />
+    <file src="files/imgs/slotaction_select.png"  cache="false"/>
+    <file src="files/imgs/slotaction_select-2.png"  cache="false"/>
+	<file src="files/imgs/itens/*.png" cache="false"/>
+
+    <file src="files/sounds/release.mp3" />
+    <file src="files/sounds/drink.mp3" />
+    <file src="files/sounds/eat.mp3" />
+    <file src="files/sounds/repair.mp3" />
+
+	<file src="files/smoke.mp3"/>
+	<file src="files/efeito.png"/>
+	<file src="files/reggae.mp3"/>
+	<file src="files/eff_drogas2.png"/>
+	<file src="files/anim.ifp"/>
+	<file src="files/anim_parado.ifp"/>
+	<file src="files/anim_correndo.ifp"/>
+
+    <export function="getTablePlayer" type="server" />
+    <export function="getWeightPlayer" type="server" />
+    <export function="getWeightBau" type="server" />
+    <export function="getPlayerItems" type="server" />
+    <export function="getItem" type="server" />
+    <export function="getItemByData" type="server" />
+    <export function="getItemDataByData" type="server" />
+    <export function="getItemByName" type="server" />
+    <export function="getPesoItem" type="shared" />
+    <export function="takeItem" type="server" />
+    <export function="giveItem" type="server" />
+    <export function="getNameItem" type="server" />
+    <export function="getItemSpecial" type="shared" />
+	<export function="getItemBlacklist" type="server" />
+    <export function="getConfig" type="shared" />
+	<export function="getIdentityByID" type="server" />
+	<export function="giveDataItem" type="server" />
+	<export function="takeItemByPlate" type="server" />
+	<export function="getItensPlayer" type="server" />
+</meta>

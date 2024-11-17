@@ -1,0 +1,7 @@
+<meta>
+    <info type="map" version="1.0.0"></info>
+    <file src="images/led.png"></file>
+    <file src="uv_scripted.fx"></file>
+    <file src="include/tex_matrix.fx"></file>
+    <script src="c_uv_scripted.lua" type="client"></script>
+</meta>

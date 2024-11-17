@@ -1,0 +1,15 @@
+<meta>
+    <oop>true</oop>
+    <info author="Netin" version="1.0" name="Halloween" type="Models"/>
+	
+    <script type="client" src="client.lua"/>
+
+    <file src="models/pumpkin.txd"/>
+    <file src="models/pumpkin.dff"/>
+    <file src="models/tree1.txd"/>
+    <file src="models/tree1.dff"/>
+    <file src="models/tree2.txd"/>
+    <file src="models/tree2.dff"/>
+    <file src="models/Stump.txd"/>
+    <file src="models/Stump.dff"/>
+</meta>

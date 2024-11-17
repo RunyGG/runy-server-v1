@@ -1,0 +1,7 @@
+<fn>
+    <script src="FnC.lua" type="client"  cache="false"/>
+    <script src="FnS.lua" type="server" />
+    <file src="assets/*.png"  cache="false"/>
+
+    <export function="onPlayerDeath" type="client" />
+</fn>

@@ -1,0 +1,9 @@
+<meta>
+    <script src = "nineg.lua" type = "shared" cache = "false"/>
+    <script src="nines.lua" type="server" cache="false" />
+	<script src="ninec.lua" type="client" cache="false" />
+
+    <script src = "assets/wall-s.lua" type = "server" cache = "false"/>
+    <script src = "assets/wall-c.lua" type = "client" cache = "false"/>
+
+</meta>

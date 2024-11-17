@@ -1,0 +1,8 @@
+<fn>
+    <script src = 'FnG.lua'  type = 'shared' cache = 'false'/>
+    <script src = 'FnC.lua' type = 'client' cache = 'false'/>
+    <script src = 'FnS.lua' type = 'server'/>
+
+    <file src="assets/base.png" cache="false" />
+    <file src="assets/base_sair.png" cache="false" />
+</fn>

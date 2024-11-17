@@ -1,0 +1,18 @@
+<vitti>
+	<!-- Info -->
+	
+    <info author="Vitti Codes" version="1.0" />
+    <min_mta_version client="1.5.8-9.20979" />
+	
+	<!-- Scripts -->
+	
+	<script src = "vitti-g.lua" type = "shared" cache = "false" />
+	<script src = "core/utils/vitti-u.lua" type = "client" cache = "false" />
+	<script src = "core/vitti-c.lua" type = "client" cache = "false" />
+	<script src = "core/vitti-s.lua" type = "server" />
+
+	<file src = "core/gfx/circle.png" />
+
+	<file src = "core/fonts/Montserrat-Bold.ttf" />
+	<file src = "core/fonts/Montserrat-SemiBold.ttf" />
+</vitti>

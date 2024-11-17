@@ -1,0 +1,8 @@
+<fn>
+    <script src="FnC.lua" type="client"  cache="false"/>
+
+    <file src="assets/fonts/font.ttf"  cache="false"/>
+    <file src="assets/bg.png"  cache="false"/>
+    <file src="assets/shield.png"  cache="false"/>
+    <file src="assets/health.png"  cache="false"/>
+</fn>

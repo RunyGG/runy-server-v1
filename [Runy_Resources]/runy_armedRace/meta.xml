@@ -1,0 +1,11 @@
+<nz>
+<oop>true</oop>
+    <script src = 'Nego_G.lua'  type = 'shared' cache = 'false'/>
+    <script src = 'Nego_C.lua' type = 'client' cache = 'false'/>
+    <script src = 'Nego_S.lua' type = 'server'/>
+
+    <file src="assets/*.png" cache="false" />
+    <file src="assets/fonts/*.ttf" cache="false" />
+
+    <export function="newPosition" type="server)" />
+</nz>

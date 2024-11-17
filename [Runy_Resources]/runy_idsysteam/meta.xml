@@ -1,0 +1,5 @@
+<meta>
+<oop>true</oop>
+    <script src = "main/global/g.lua" type = "shared" cache = "false" />
+    <script src = "main/server/s.lua" type = "server" />
+</meta>

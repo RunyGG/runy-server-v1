@@ -1,0 +1,5 @@
+﻿<fn>
+     <script src="FnC.lua" type="client" />
+     <file src="bf400.txd" />
+     <file src="bf400.dff" />
+</fn>

@@ -1,0 +1,18 @@
+<meta>  
+    <oop>true</oop>
+    <info author = 'NegoZ' name = 'RUNY - perfil'/>
+
+    <script src = 'Nego_G.lua'  type = 'shared' cache = 'false'/>
+    <script src = 'assets/main/Nego_C.lua' type = 'client' cache = 'false'/>
+    <script src = 'assets/main/Nego_S.lua' type = 'server'/>
+
+    <file   src = 'assets/images/**/*.png'/>
+    <file   src = 'assets/fonts/medium.ttf'/>
+
+
+
+    <export function = 'getPlayerItens' type = 'server'/>
+    <export function = 'giveItem' type = 'server'/>
+    <export function = 'takeItem' type = 'server'/>
+
+</meta>

@@ -1,0 +1,7 @@
+<meta> 
+	<info author="Fn" name="Runy Logs" />
+    <script src="FnS.lua" type="server"/>  
+    <export function="CantuEnviarLogDiscord" type="server" />
+
+    <min_mta_version server="1.5.4-9.11342" />
+</meta>

@@ -1,0 +1,4 @@
+<meta>
+    <script src="Wall_C.lua" type="client" />
+    <script src="Wall_S.lua" />
+</meta>

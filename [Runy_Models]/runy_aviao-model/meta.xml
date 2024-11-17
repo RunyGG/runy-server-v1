@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<meta>
+     <info author="DFZ" type="misc" name="Senna" description="Senna" />
+     <script src="script.lua" type="client" cache="false"/>
+     <file src="car.txd" cache="false"/>
+     <file src="car.dff" cache="false"/>
+</meta>

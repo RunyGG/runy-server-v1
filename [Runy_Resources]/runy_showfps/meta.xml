@@ -1,0 +1,5 @@
+<resource>
+    <info author="barros" version="1.0" description="runy gg - show fps"/>
+    <script src="barros.lua" type="client"/>
+    <file src="fonts/sbold.ttf"/>
+</resource>

@@ -1,0 +1,19 @@
+function ModuleCancel(x, y, z, theType)
+    cancelEvent()
+end
+addEventHandler("onClientExplosion", root, ModuleCancel)
+
+
+function projectileCreation( creator )
+    if localPlayer == creator then 
+        local projectileType = getProjectileType( source ) -- We get the projectile type
+        if projectileType ~= 17 then
+            if system.core.modules['Explosion >> Detect'] == true then
+                triggerServerEvent(encryptEventName('onAnticheatDetect'), resourceRoot, ' [AC] Module detected you using ProjectileCreation' )
+                setElementPosition(source, 0, 0, 1000 )
+                destroyElement(source)
+            end
+        end
+    end
+end
+addEventHandler( "onClientProjectileCreation", root, projectileCreation )

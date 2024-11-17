@@ -1,0 +1,19 @@
+<meta>
+
+    <info author = 'Fn' name = 'Sistema de identidade'/>
+
+    <script src = 'FnG.lua'  type = 'shared'/>
+    <script src = 'FnC.lua' type = 'client' cache = 'false'/>
+    <script src = 'FnS.lua' type = 'server'/>
+
+    <file src = 'assets/font_regular.ttf'/>
+    <file src = 'assets/base.png'/>
+
+    <file src = 'assets/male.png'/>
+    <file src = 'assets/male_select.png'/>
+    <file src = 'assets/female.png'/>
+    <file src = 'assets/female_select.png'/>
+    <file src = 'assets/finish.png'/>
+    <file src = 'assets/finish_select.png'/>
+
+</meta>

@@ -1,0 +1,7 @@
+<meta>
+    <info author = 'imcrowww669' description = '[Crow]Lobby_Barros - HailVision' version = '1.0' name = 'nao remova os créditos por favor' />
+    <script src='[C]Replace.lua' type='client' />
+    <file src='1.dff' />
+    <file src='1.col' />
+    <file src='1.txd' />
+</meta>

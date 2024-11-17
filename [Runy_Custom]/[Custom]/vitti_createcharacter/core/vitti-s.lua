@@ -1,0 +1,45 @@
+addEventHandler('onPlayerLogin', getRootElement(), function()
+    local account = getPlayerAccount(source)
+    if not getAccountData(account,"Create:Character") then
+        triggerClientEvent(source,'Vitti:LoadPainel', source)
+        --setElementDimension(source,2)
+        setElementModel(source, 1)
+        setElementPosition(source,unpack(Config["Geral"]["CharacterPosition"]))
+        setElementFrozen(source,true)
+        showCursor(source,true)
+        setElementRotation(source,0,0,0)
+        setCameraMatrix(source,unpack(Config["Geral"]["CameraMatrix"]))
+    end
+end)
+
+addCommandHandler('createPerson', function(player, _) 
+    local account = getPlayerAccount(player)
+    setElementModel(player, 1)
+    setAccountData(account,"Create:Character",false)
+    triggerClientEvent(player,'Vitti:LoadPainel', player)
+    --setElementDimension(player,2)
+    --setElementPosition(player,unpack(Config["Geral"]["CharacterPosition"]))
+    setElementFrozen(player,true)
+    showCursor(player,true)
+    setElementRotation(player,0,0,0)
+    setCameraMatrix(player,unpack(Config["Geral"]["CameraMatrix"]))
+end)
+
+
+addEvent('Vitti:onConfirm', true)
+addEventHandler('Vitti:onConfirm', getRootElement(), function(player,skin,cor,rosto)
+    if skin == 10 then
+        exports.customcharacter:UpdatePlayerClothes(player, {["skin"] = skin, ["rosto"] = {rosto,cor},["corpo"] = {1,cor},["perna"] = {1,cor},["pe"] = {1,cor},["braco"] = {1,cor},["short"] = {1,1}, ["corpo"] = {2,2} })
+    elseif skin == 1 then
+        exports.customcharacter:UpdatePlayerClothes(player, {["skin"] = skin, ["rosto"] = {rosto,cor},["corpo"] = {1,cor},["perna"] = {1,cor},["pe"] = {1,cor},["braco"] = {1,cor}, ["short"] = {2,2}, ["corpo"] = {2,2} })
+    end
+    removeElementData(player, "createPersonGG")
+    triggerClientEvent("returnToLobbyCancelMatch", player, player)
+    local account = getPlayerAccount(player)
+    setAccountData(account,"Create:Character",true)
+    setElementDimension(player,0)
+    setElementPosition(player,unpack(Config["Geral"]["onConfirmSpawn"]))
+    setElementFrozen(player,false)
+    showCursor(player,false)
+    setCameraTarget(player,player)
+end)

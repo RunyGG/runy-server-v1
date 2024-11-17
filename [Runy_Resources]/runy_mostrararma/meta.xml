@@ -1,0 +1,14 @@
+<meta>
+<oop>true</oop>
+	<info author="Fn" version="1.0.0" name="Mostrar Armas" type="script" />
+
+	<script src="client.lua" type="client"  cache="false"/>
+
+	<file src='files/font1.ttf' cache="false" />
+	<file src='files/font2.ttf' cache="false" />
+
+	<file src='files/*.png' cache="false" />
+    <export function="showWeaponHUD" type="client"/>
+    <export function="hideWeaponHUD" type="client"/>
+
+</meta>

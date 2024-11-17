@@ -1,0 +1,33 @@
+<meta>
+<oop>true</oop>
+<min_mta_version client = '1.3.0-9.04555' server = '1.4.0-9.06339' />
+	<info author = 'NegoZ' type = 'script' name = 'CustomWeapons' version = '2.1.0'/>
+	<script src = 'c_weapon.lua' type = 'client' cache = 'false'  />
+	<script src = 's_weapon.lua' type = 'server' />
+	<script src = 'Nego_G.lua' type = 'shared'  cache = 'false' />	
+    <!--script src = 'laser/laser_C.lua' type = 'client' cache = 'false'  />
+	<script src = 'laser/exports_S.lua' type = 'server' /-->
+
+	<file src = 'laser/laser.png' />
+	<file src = 'laser/smoke.png' />
+    <file src = 'files/fx/texturechanger.fx' cache = 'false' />
+    <file src = 'models/None.txd' cache = 'false' />
+    <file src = 'models/None.dff' cache = 'false' />
+	<file src = 'Sounds/gatilho.mp3' cache = 'false'  />
+	<file src = 'Sounds/Primary/*.wav' cache = 'false'  />
+    <file src = 'Sounds/far/*.wav' cache = 'false' />
+	<file src = 'Sounds/bullet/*.wav' cache = 'false'  />
+	<file src = 'Sounds/Secundary/*.mp3' cache = 'false'  />
+    <file src = 'files/weapons/skins/*.png' cache = 'false'  />
+	
+	<export function = 'loadObjectSkin' type = 'server' />
+	<export function = 'giveWeaponMG' type = 'server' />
+	<export function = 'giveNewWeapon' type = 'server' />
+	<export function = 'removeQuit' type = 'server' />
+	<export function = 'loadWeaponSkin' type = 'server' />
+    <export function = 'opacyobj' type = 'server' />
+    <export function = 'attach' type = 'server' />
+    <export function = 'update' type = 'server' />
+    <export function = 'expobj' type = 'client' />
+    <export function = 'soundCustom' type = 'client' />
+</meta>

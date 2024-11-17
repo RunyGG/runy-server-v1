@@ -1,0 +1,5 @@
+<meta>
+    <info author="barros" version="1.0" type="script" description="Script de No Recoil para todos os fuzis"/>
+
+    <script src="barrosS.lua" type="server"/> 
+</meta>

@@ -1,0 +1,6 @@
+<resource>
+    <name>Teleport System</name>
+    <type>script</type>
+    <description>Tp no aquecimento!</description>
+    <script src="server.lua" type="server" />
+</resource>

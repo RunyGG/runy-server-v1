@@ -1,0 +1,6 @@
+﻿<meta>
+	<script src='FnC.lua' type='client'  cache="false"/>
+	<file src='fn/vending.txd'  cache="false"/>
+	<file src='fn/vending.dff'  cache="false"/>
+	<file src='fn/vending.col'  cache="false"/>
+</meta>

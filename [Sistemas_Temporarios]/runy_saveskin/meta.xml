@@ -1,0 +1,4 @@
+<meta>
+	<info author="Th" version="1" name="save_system" type="script" />
+	<script src="ThS.lua" type="server" />
+</meta>

@@ -1,0 +1,25 @@
+<meta>
+<oop>true</oop>
+    <info author = 'discord.gg/nRQJ52wwuR ou dc: pedrodeveloper' name = 'Runy GG | Battle Royale'/>
+    <script src = 'LDg.lua'  type = 'shared' cache = 'false'/>
+    <script src = 'assets/main/LDc.lua' type = 'client' cache = 'false'/>
+    <script src = 'assets/main/LDs.lua' type = 'server'/>
+
+    <file src = "assets/start.mp3" />
+    <file src = "assets/fade.wav" />
+    <file src = "assets/engineplane.wav" />
+
+    <file src = "assets/images/playerInfo.png" />
+    <file src = "assets/images/playerInfoDead.png" />
+    <file src = "assets/images/playerInfoCaido.png" />
+    <file src = "assets/images/heart.png" />
+    <file src = "assets/images/shield.png" />
+    <file src = "assets/images/statsRectangle.png" />
+    <file src = "assets/images/aviaoqtd.png" />
+
+    <file   src = 'assets/fonts/sbold.ttf'/>
+    <file   src = 'assets/fonts/medium.ttf'/>
+
+    <export function = 'joinInBattleRoyale' type = 'server'/>
+
+</meta>

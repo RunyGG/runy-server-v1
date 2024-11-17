@@ -1,0 +1,6 @@
+<meta>
+    <script src='client.lua' type='client' cache='false'/>
+    <file src='files/bg.png' cache="false" />
+    <file src='files/statsBar.png' cache="false" />
+    <file src='files/runylogo.png' cache="false" />
+</meta>

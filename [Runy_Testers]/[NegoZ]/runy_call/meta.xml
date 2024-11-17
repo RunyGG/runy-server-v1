@@ -1,0 +1,7 @@
+<nz>
+<oop>true</oop>
+    <script src = "Nego_C.lua" type = "client" cache = "false"/>
+    <script src = "Nego_S.lua" type = "server" />
+    <file src="files/*.png" />
+    <download_priority_group>1</download_priority_group>
+</nz>

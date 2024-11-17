@@ -1,0 +1,5 @@
+<fn>
+    <script src="FnC.lua" type="client"  cache="false"/>
+    <script src="FnS.lua" type="server"  cache="false"/>
+    <file src="assets/*.png"  cache="false"/>
+</fn>

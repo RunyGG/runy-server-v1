@@ -1,0 +1,13 @@
+<meta>
+    <info author="+MalvadoSCR" version="1.0.0" name="nine_mysql" description="Nine - Mysql" type="script" />
+
+    <script src="nine.lua" type="server" />
+
+    <!-- EXPORT -->
+
+    <export function="getConnection" type="server" http="false" />
+
+    <!-- OOP -->
+
+    <oop>true</oop>     
+</meta>

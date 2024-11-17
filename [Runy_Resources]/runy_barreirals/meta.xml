@@ -1,0 +1,6 @@
+<meta>
+	<info author="Fn" version="1.0.0" name="BarreiraLS System" type="script" />
+
+	<script src="server.lua" type="server" cache = "false" />
+	<script src="client.lua" type="client" cache = "false" />
+</meta>

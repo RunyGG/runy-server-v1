@@ -1,0 +1,22 @@
+<fn>
+    <script src="FnS.lua" type="server"  cache="false"/>
+    <script src="FnC.lua" type="client"  cache="false"/>
+    <script src="assets/responsive.lua" type="client" cache="false" />
+
+    <!-- ASSETS -->
+
+    <file src="assets/fundo_player.png"  cache="false"/>
+    
+    <file src="assets/fundo_lobby-unselect.png"  cache="false"/>
+    <file src="assets/fundo_lobby-select.png"  cache="false"/>
+
+    <file src="assets/health.png"  cache="false"/>
+    <file src="assets/shield.png"  cache="false"/>
+
+    <file src="assets/fonts/font.ttf" />
+
+    <file src="assets/s_right.png"  cache="false"/>
+    <file src="assets/s_left.png"  cache="false"/>
+    <file src="assets/s_right-select.png"  cache="false"/>
+    <file src="assets/s_left-select.png" cache="false" />
+</fn>

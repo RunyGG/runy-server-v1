@@ -1,0 +1,11 @@
+<meta>
+	<file src="texreplace.fx"  cache="false"/>
+	<file src="siteM16.png"  cache="false"/>
+	<file src="siteM17.png"  cache="false"/>
+	<file src="hitmarker.png"  cache="false"/>
+	<file src="hitmarker2.png"  cache="false"/>
+	<file src="hitmarker-sound.wav"  cache="false"/>
+	<script type="client" src="client.lua"  cache="false"/>
+	<script type="server" src="FnS.lua"  cache="false"/>
+	<script type="server" src="C_shader_siteM16.lua"  cache="false"/>
+</meta>

@@ -1,0 +1,14 @@
+<fn>
+    <script src="server.lua" type="server" cache="false"/>
+
+    <script src="client.lua" type="client" cache="false"/>
+    <export function="toggleTraining" type="client"/>
+    <export function="removeTargets" type="client"/>
+
+    <file src="assets/base_iniciar.png" />
+    <file src="assets/base_tempo.png" />
+    <file src="assets/base_pontos.png" />
+    <file src="assets/base_parar.png" />
+
+    <file src="assets/fonts/font.ttf" />
+</fn>

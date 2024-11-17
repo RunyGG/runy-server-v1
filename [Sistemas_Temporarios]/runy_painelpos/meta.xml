@@ -1,0 +1,3 @@
+<fn>
+    <script src="client.lua" type="client" cache="false" />
+</fn>

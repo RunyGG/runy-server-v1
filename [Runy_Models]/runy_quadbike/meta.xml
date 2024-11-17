@@ -1,0 +1,5 @@
+﻿<fn>
+     <script src="FnC.lua" type="client" />
+     <file src="car.txd" />
+     <file src="car.dff" />
+</fn>

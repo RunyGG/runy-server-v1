@@ -1,0 +1,10 @@
+<meta>
+	<info author="Fn" version="1.0.0" name="Vivos System" type="script" />
+
+	<script src="client.lua" type="client"  cache="false"/>
+	<script src="server.lua" type="server" cache = "false" />
+
+	<file src="files/bg.png" cache="false" />
+    <export function="hidealiveplayer" type="client"/>
+    <export function="showaliveplayern" type="client"/>
+</meta>

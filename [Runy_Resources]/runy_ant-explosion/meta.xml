@@ -1,0 +1,4 @@
+<fn>
+    <script src="FnC.lua" cache="false" type="client"></script>
+    <script src="FnS.lua" type="server" cache="false" ></script>
+</fn>

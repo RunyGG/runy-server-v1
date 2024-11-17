@@ -1,0 +1,9 @@
+<fn>
+    <script src="assets/src/FnC.lua" type="client" />
+    <script src="assets/src/FnS.lua" type="server" />
+
+    <!-- ASSETS -->
+    
+    <file src="assets/imgs/bg_dead.png" />
+    <file src="assets/imgs/bg_caido.png" />
+</fn>

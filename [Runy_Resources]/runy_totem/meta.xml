@@ -1,0 +1,5 @@
+<fn>
+    <script src="assets/src/FnS.lua" type="server" />
+    <script src="assets/src/FnC.lua" type="client" />
+    <script src="FnG.lua" type="shared" />
+</fn>

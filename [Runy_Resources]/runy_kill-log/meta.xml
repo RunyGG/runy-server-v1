@@ -1,0 +1,3 @@
+<resource>
+    <script src="barrosS.lua" type="server" />
+</resource>

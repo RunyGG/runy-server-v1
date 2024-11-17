@@ -1,0 +1,13 @@
+<meta>
+    <info author="Keven" version="2.0" type="Script" />
+    <min_mta_version server="1.5.5-9.14060"></min_mta_version>
+    <script src="config/config_ElementData.lua" type="shared" cache="false" />
+    <script src="config/config_ACL.lua" type="shared" cache="false" />
+    <script src="config/config_Comandos.lua" type="shared" cache="false" />
+    <script src="config/config_WebHooks.lua" type="shared" cache="false" />
+    <script src="server.luac" type="server" cache="false" />
+    <script src="client.luac" type="client" cache="false" />
+    
+    <export function="Script_Admin" type="client" />
+    <export function="Script_Admin" type="server" />
+</meta>

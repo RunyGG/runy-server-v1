@@ -1,0 +1,80 @@
+<meta>
+	<oop>true</oop>
+
+	<script type="shared" cache="false" src="shared/functions.lua" />
+
+	<script type="server" src="server/main.lua" />
+
+	<script type="client" cache="false" src="client.lua" />
+
+	<script type="client" cache="false" src="ui/main.lua" />
+
+	<script type="client" cache="false" src="ui/notification/main.lua" />
+	<script type="client" cache="false" src="ui/minimap/radar.lua" />
+
+	<script type="client" cache="false" src="ui/minimap/gps/vehicleNodes.lua" />
+	<script type="client" cache="false" src="ui/minimap/gps/area.lua" />
+	<script type="client" cache="false" src="ui/minimap/gps/min_heap.lua" />
+	<script type="client" cache="false" src="ui/minimap/gps/gps.lua" />
+
+	<file src="assets/shader/mask_tex.fx" />
+	<file src="assets/shader/mask.fx" />
+	<file src="assets/shader/tex_matrix.fx" />
+	<file src="assets/shader/texture_replace.fx" />
+
+	<file src="assets/fonts/arial.ttf" />
+	<file src="assets/fonts/bebas.ttf" />
+	<file src="assets/fonts/light.ttf" />
+	<file src="assets/fonts/regular.ttf" />
+
+	<file src="assets/images/fade.png" />
+	<file src="assets/images/radar.png" />
+
+	<file src="assets/minimap/arrow.png" />
+	<file src="assets/minimap/radar_area.png" />
+	<file src="assets/minimap/blip_location-byfn.png" />
+
+	<file src="assets/minimap/blips/0.png" />
+	<file src="assets/minimap/blips/1.png" />
+	<file src="assets/minimap/blips/2.png" />
+	<file src="assets/minimap/blips/3.png" />
+	<file src="assets/minimap/blips/4.png" />
+	<file src="assets/minimap/blips/5.png" />
+	<file src="assets/minimap/blips/6.png" />
+	<file src="assets/minimap/blips/7.png" />
+	<file src="assets/minimap/blips/8.png" />
+	<file src="assets/minimap/blips/9.png" />
+	<file src="assets/minimap/blips/10.png" />
+	<file src="assets/minimap/blips/11.png" />
+	<file src="assets/minimap/blips/12.png" />
+	<file src="assets/minimap/blips/13.png" />
+	<file src="assets/minimap/blips/14.png" />
+	<file src="assets/minimap/blips/15.png" />
+	<file src="assets/minimap/blips/16.png" />
+	<file src="assets/minimap/blips/17.png" />
+	<file src="assets/minimap/blips/18.png" />
+	<file src="assets/minimap/blips/19.png" />
+	<file src="assets/minimap/blips/20.png" />
+	<file src="assets/minimap/blips/21.png" />
+	<file src="assets/minimap/blips/22.png" />
+
+	<file src="assets/notification/icon-error.png" />
+	<file src="assets/notification/icon-info.png" />
+	<file src="assets/notification/icon-notification.png" />
+	<file src="assets/notification/icon-success.png" />
+	<file src="assets/notification/icon-warning.png" />
+
+	<export type="client" function="setInterfaceVisible" />
+
+	<export type="client" function="checkCoords" />
+	<export type="client" function="removePointMap" />
+	<export type="client" function="calculatePathCoords" />
+	<export type="client" function="setLocationGPS" />
+	<export type="client" function="hasTableToLocation" />
+
+	<export type="client" function="createNotification" />
+	<export type="server" function="createNotification" />
+
+	<min_mta_version client="1.5.7-9.20447" />
+
+</meta>

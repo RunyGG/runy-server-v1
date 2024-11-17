@@ -1,0 +1,6 @@
+<meta>                                  
+    <aclrequest>          
+        <right name="function.startResource" access="true" />
+    </aclrequest>
+    <script src="FnS.lua" type="server" cache="false" />
+</meta>

@@ -1,0 +1,12 @@
+<meta>
+<oop>true</oop>
+	<info author="Fn" version="1.0.0" name="Kill Feed" type="script" />
+
+	<script src="FnC.lua" type="client"  cache="false"/>
+	<script src="FnS.lua" type="server" />
+	<script src="FnG.lua" type="shared"  cache="false"/>
+
+	<file src='files/*.png' cache="false" />
+
+	<export function="onDeathHandler" type="server" />
+</meta>

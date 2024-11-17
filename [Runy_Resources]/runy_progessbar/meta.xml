@@ -1,0 +1,14 @@
+<fn>
+    <script src="FnS.lua" type="server"  cache="false"/>
+    <script src="FnC.lua" type="client"  cache="false"/>
+
+    <file src="assets/fonts/font.ttf"  cache="false"/>
+    <file src="assets/bg.png"  cache="false"/>
+
+    <file src="assets/shared/shader.fx"  cache="false"/>
+
+    <script src = "assets/utils/hou_circle.lua" type = "client"/>
+	<file src = "assets/utils/hud_mask.fx" type = "client"/>
+	<file src = "assets/utils/tex_matrix.fx" type = "client"/>
+	<file src = "assets/utils/hou_circle.fx" type = "client"/>
+</fn>

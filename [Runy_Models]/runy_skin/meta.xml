@@ -1,0 +1,5 @@
+<meta>
+	<file src="random.txd" />
+	<file src="random.dff" />
+	<script type="client" src="script.lua" />
+</meta>

@@ -1,0 +1,55 @@
+<meta>
+    <info author = 'NegoZ' version = '1.0.0' type = 'script' name = 'Objects' />
+    
+
+    <!-- Main Scripts -->
+    <script src = 'core/shared.lua' type = 'shared'/>
+    <script src = 'core/client.lua' type = 'client'/>
+    <script src = 'core/server.lua' type = 'server'/>
+
+    <!-- Exported functions -->
+    <export function = 'isDefaultID' type = 'shared'/>
+    <export function = 'createObject' type = 'shared'/>
+    <export function = 'createVehicle' type = 'shared'/>	
+    <export function = 'getVehicleType' type = 'shared'/>	
+    <export function = 'createPed' type = 'shared'/>
+    <export function = 'createPickup' type = 'shared'/>
+    <export function = 'setPickupType' type = 'shared'/>
+    <export function = 'setElementModel' type = 'shared'/>
+    <export function = 'getElementModel' type = 'shared'/>
+
+    <!-- Backwards compatibility with newmodels 3.3.0 -->
+    <script src = 'optional/compatibility/shared/config.lua' type = 'shared'/>
+    <script src = 'optional/compatibility/shared/funcs.lua' type = 'shared'/>
+    <script src = 'optional/compatibility/server/funcs.lua' type = 'server'/>
+    
+    <!-- Exported functions (Client & Server) -->
+    <export type = 'shared' function = 'getModList'/>
+    <export type = 'shared' function = 'getDataNameFromType'/>
+    <export type = 'shared' function = 'getBaseModelDataName'/>
+    <export type = 'shared' function = 'getBaseModel'/>
+    <export type = 'shared' function = 'getModDataFromID'/>
+    <export type = 'shared' function = 'isDefaultID'/>
+    <export type = 'shared' function = 'isCustomModID'/>
+    <export type = 'shared' function = 'isRightModType'/>
+    <export type = 'shared' function = 'checkModelID'/>
+
+    <!-- Exported functions (Server only) -->
+    <export type = 'server' function = 'addExternalMod_IDFilenames'/>
+    <export type = 'server' function = 'addExternalMods_IDFilenames'/>
+    <export type = 'server' function = 'addExternalMod_CustomFilenames'/>
+    <export type = 'server' function = 'addExternalMods_CustomFileNames'/>
+    <export type = 'server' function = 'removeExternalMod'/>
+    <export type = 'server' function = 'removeExternalMods'/>
+
+    <!-- Exported functions (Client only) -->
+    <export type = 'client' function = 'isClientReady'/>
+    <export type = 'client' function = 'isModAllocated'/>
+
+    <!-- Files -->
+    <file src = 'models/**/*.col'/>
+    <file src = 'models/**/*.txd'/>
+    <file src = 'models/**/*.dff'/>
+    <oop>true</oop>
+    <min_mta_version client = '1.6.0-9.22505.0' server = '1.6.0-9.22505.0'></min_mta_version>
+</meta>

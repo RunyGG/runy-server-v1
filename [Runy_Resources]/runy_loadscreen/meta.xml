@@ -1,0 +1,21 @@
+<meta>
+    <info author="zJoaoFtw_" description="Script feito por zJoaoFtw_#5562" />
+
+    <script src="config.lua" type="shared" cache="false" />
+    <script src="sources/client/main.lua" type="client" cache="false" />
+    <script src="sources/server/main.lua" type="server" />
+    <script src="sources/shared/utils.lua" type="shared" cache="false" />
+    <script src="sources/shared/responsive.lua" type="client" cache="false" />
+
+    <file src="files/fonts/medium.ttf" />
+    <file src="files/fonts/regular.ttf" />
+    <file src="files/fonts/bold.ttf" />
+    <file src="files/fonts/light.ttf" />
+    <file src="files/fonts/black.ttf" />
+    <file src="files/fonts/semibold.ttf" />
+
+    <file src="files/imgs/bar.png"  cache="false"/>
+    <file src="files/imgs/base.png"  cache="false"/>
+
+    <download_priority_group>1</download_priority_group>
+</meta>

@@ -1,0 +1,21 @@
+<meta>
+    <info author="NegoZ" version="0.1" name="BordaMarcada"/>
+
+    <oop>true</oop>
+    <download_priority_group>-4</download_priority_group>
+
+    
+    <script src="Nego_C.lua" type="client" cache="false" />
+
+    <file src="files/fx/edge.fx" cache="false" />
+	<file src="files/fx/wall.fx" cache="false" />
+	<file src="files/fx/wall_mrt.fx" cache="false" />
+    <file src="files/shader.fx" cache="false" />
+
+    <export function="createElementOutlineEffect" type="client" />
+    <export function="destroyElementOutlineEffect" type="client" />
+    <export function="disableOutline" type="client" />
+    <export function="enableOutline" type="client" />
+
+    <min_mta_version client="1.5.7" />
+</meta>

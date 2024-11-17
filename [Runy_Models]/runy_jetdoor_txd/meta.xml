@@ -1,0 +1,5 @@
+<meta>
+	<info author="rzz" version="1.0.0" type="script" name="Textura Jetdoor" description="TXT Jetdoor" />
+	<script src="jeetdor.lua" type="client" />
+	<file src="jeetdor.txd" />
+</meta>

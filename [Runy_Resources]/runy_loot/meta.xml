@@ -1,0 +1,15 @@
+<meta>
+    <oop>true</oop>
+	<info author="Fn" version="1.0.0" name="Loots System" type="script" />
+	<script src="FnG.lua" type="shared" cache = "false" />
+	<script src="client.lua" type="client" cache = "false" />
+	<script src="FnS.lua" type="server" cache = "false" />
+
+	<!-- ASSETS -->
+
+	<file src="assets/colletsound.mp3"  cache="false"/>
+	<file src="assets/sdahdwahdwhasd.ifp"  cache="false"/>
+
+	<export function="createDroppedItem" type="server" />
+	<export function="destroyLoot" type="server" />
+</meta>

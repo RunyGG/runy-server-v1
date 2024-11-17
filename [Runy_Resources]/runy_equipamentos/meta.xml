@@ -1,0 +1,33 @@
+<meta>  
+    <oop>true</oop>
+    <info author = 'NegoZ' name = 'RUNY - Equipamentos'/>
+
+    <script src = 'Nego_G.lua'  type = 'shared' cache = 'false'/>
+    <script src = 'assets/main/Nego_C.lua' type = 'client' cache = 'false'/>
+    <script src = 'assets/main/Nego_S.lua' type = 'server'/>
+
+    <file   src = 'assets/images/circle.png'/>
+    <file   src = 'assets/images/remove.png'/>
+    <file   src = 'assets/images/fundo_2.png'/>
+    <file   src = 'assets/images/fundo_inventario.png'/>
+    <file   src = 'assets/images/slots.png'/>
+    <file   src = 'assets/images/bg_category.png'/>
+    <file   src = 'assets/images/bg_cameras.png'/>
+    <file   src = 'assets/images/fundo_cameras.png'/>
+    <file   src = 'assets/images/scroll_fundo.png'/>
+    <file   src = 'assets/images/scroll.png'/>
+    <file   src = 'assets/images/smoke.png'/>
+    
+    <file   src = 'assets/fonts/medium.ttf'/>
+    
+    <file   src = 'assets/images/cameras/*.png'/>
+    <file   src = 'assets/images/categorys/*.png'/>
+    <file   src = 'assets/images/icons/*.png'/>
+
+
+    <export function = 'getPlayerItens' type = 'server'/>
+    <export function = 'giveItem' type = 'server'/>
+    <export function = 'takeItem' type = 'server'/>
+    <export function = 'objAlpha' type = 'server'/>
+
+</meta>

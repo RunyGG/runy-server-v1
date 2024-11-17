@@ -1,0 +1,11 @@
+<fn>
+    <script src="FnC.lua" type="client"  cache="false"/>
+
+    <!-- ASSETS -->
+
+    <file src="assets/smoke.png"  cache="false"/>
+    <file src="assets/bg.png"  cache="false"/>
+    <file src="assets/arrow.png"  cache="false"/>
+    <file src="assets/bg2.png"  cache="false"/>
+    <file src="assets/arrow2.png"  cache="false"/>
+</fn>

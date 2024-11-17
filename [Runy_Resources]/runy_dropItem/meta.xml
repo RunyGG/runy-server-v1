@@ -1,0 +1,15 @@
+<meta>  
+
+    <info author = 'discord.gg/XBXNPtBTsm ou dc: pedrodeveloper' name = 'BARROS - DROP ITEM'/>
+    <script src = 'LDg.lua'  type = 'shared' cache = 'false'/>
+    <script src = 'assets/main/LDc.lua' type = 'client' cache = 'false'/>
+    <script src = 'assets/main/LDs.lua' type = 'server'/>
+
+    <!-- ASSETS -->
+
+	<file src="assets/colletsound.mp3"  cache="false"/>
+	<file src="assets/card.png" cache="false"/>
+
+    <export function="createDroppedItem" type="server" />
+    <export function="destroyLoot" type="server" />
+</meta>

@@ -1,0 +1,23 @@
+<meta>
+
+    <info author = 'discord.gg/nRQJ52wwuR ou dc: pedrodeveloper' name = 'BARROS - SAFEZONE'/>
+
+    <script src = 'LDg.lua'  type = 'shared'/>
+    <script src = 'assets/main/LDc.lua' type = 'client' cache = 'false'/>
+    <script src = 'assets/main/LDs.lua' type = 'server'/>
+
+    <file src = 'assets/images/wall.png'/>
+    <file src = 'assets/images/safe.png'/>
+    <file src = 'assets/images/base.png'/>
+    <file src = 'assets/images/bar.png'/>
+
+    <file src = 'assets/fonts/regular.ttf'/>
+    <file src = 'assets/fonts/medium.ttf'/>
+
+    <file src = 'assets/sounds/15s.mp3'/>
+
+    <export function="realivePlayer" type="server" />
+    
+    <min_mta_version server="1.5.4-9.11342"/>
+    
+</meta>

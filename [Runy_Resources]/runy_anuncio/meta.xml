@@ -1,0 +1,10 @@
+<meta>
+
+	<script src="barrosG.lua" type="shared" cache="false"/>
+	<script src="barrosC.lua" type="client" cache="false"/>
+	<script src="barrosS.lua" type="server"/>
+	<file src="assets/main.png" cache="false"/>
+	<file src="assets/main2.png" cache="false"/>
+	<file src="assets/sbold.ttf" cache="false"/>
+
+</meta>

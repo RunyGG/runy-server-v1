@@ -1,0 +1,45 @@
+    <meta>
+    <oop>true</oop>
+    <script src = 'async.lua' type = 'shared' /> 
+    <script src = 'config/settings.lua' type = 'shared' /> 
+    <script src = 'server.lua' type = 'server' /> 
+    <script src = 'client.lua' type = 'client' cache = 'false' /> 
+    
+    <file src = 'models/*.txd' />
+	<file src = 'models/*.dff' />
+
+    <file src = 'assets/10/bandana/**/*.png' />
+    <file src = 'assets/10/braco/**/*.png' />
+    <file src = 'assets/10/cabelo/**/*.png' />
+    <file src = 'assets/10/corpo/**/*.png' />
+    <file src = 'assets/10/corrente/**/*.png' />
+    <file src = 'assets/10/oculos/**/*.png' />
+    <file src = 'assets/10/pe/**/*.png' />
+    <file src = 'assets/10/perna/**/*.png' />
+    <file src = 'assets/10/rosto/**/*.png' />
+    <file src = 'assets/10/short/**/*.png' />
+    <file src = 'assets/10/tenis/**/*.png' />
+
+    <file src = 'assets/1/bandana/**/*.png' />
+    <file src = 'assets/1/braco/**/*.png' />
+    <file src = 'assets/1/cabelo/**/*.png' />
+    <file src = 'assets/1/corpo/**/*.png' />
+    <file src = 'assets/1/corrente/**/*.png' />
+    <file src = 'assets/1/oculos/**/*.png' />
+    <file src = 'assets/1/pe/**/*.png' />
+    <file src = 'assets/1/perna/**/*.png' />
+    <file src = 'assets/1/rosto/**/*.png' />
+    <file src = 'assets/1/short/**/*.png' />
+    <file src = 'assets/1/tenis/**/*.png' />
+    
+    <export function = 'setPlayerClothe' type = 'client'/>
+    <export function = 'pixels' type = 'client' />
+    <export function = 'setClothe' type = 'client'/>
+    <export function = 'getPlayerClothes' type = 'server'/>
+    <export function = 'UpdatePlayerClothes' type = 'server'/>
+    <export function = 'onLogin' type = 'server'/>
+    <export function = 'getPlayerClothesCustom' type = 'server' />
+    <export function = 'UpdatePedClothes' type = 'server' />
+    <export function = 'loadCustom' type = 'client' />
+<min_mta_version server = '1.3.0-9.04570'/> 
+</meta>

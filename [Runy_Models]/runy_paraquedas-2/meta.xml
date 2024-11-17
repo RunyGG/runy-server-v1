@@ -1,0 +1,6 @@
+<meta>
+    <file src="parachute.txd" />
+    <file src="paracx.txd" />
+    <file src="parachute.dff" />
+    <script src="client.lua" type="client" />
+</meta>

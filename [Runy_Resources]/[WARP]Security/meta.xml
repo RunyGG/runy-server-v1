@@ -1,0 +1,9 @@
+<meta>
+    <oop>true</oop>
+	
+	<script src = 'shared/main.lua' type = 'shared' cache = 'false' />
+	<script src = 'shared/libs.lua' type = 'shared' cache = 'false' />
+	<script src = 'server/main.lua' type = 'server' cache = 'false' />
+	<script src = 'modules/*.luac' type = 'client' />
+<min_mta_version client="1.6" server="1.6"/>
+</meta>

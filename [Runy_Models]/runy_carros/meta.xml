@@ -1,0 +1,12 @@
+<fn>
+    <info author="By Menorzin and Fn" name="Caixa's de Loot" type="Modelagem" />
+    <script src="FnC.lua" type="client" cache="false" />
+
+	<!-- Lancer -->
+
+	<file src="[lancer]/euros.dff"  cache="false"/>
+	<file src="[lancer]/euros.txd"  cache="false"/>
+
+
+
+</fn>

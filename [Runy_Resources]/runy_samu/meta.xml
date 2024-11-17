@@ -1,0 +1,11 @@
+<meta>
+<oop>true</oop>
+    <file src = 'assets/carry.ifp'/>
+    <file src = 'assets/hit1.wav'/>
+    <script src = 'LDg.lua'  type = 'shared' cache = 'false'/>
+    <script src = 'LDc.lua' type = 'client' cache = 'false'/>
+    <script src = 'LDs.lua' type = 'server'/>
+
+    
+    <export function = 'removeDroppedEffect' type = 'server'/>
+</meta>

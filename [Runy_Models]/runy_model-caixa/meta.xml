@@ -1,0 +1,30 @@
+<fn>
+    <info author="By Menorzin and Fn" name="Caixa's de Loot" type="Modelagem" />
+    <script src="FnC.lua" type="client" cache="false" />
+
+	<!-- C. Munis -->
+
+	<file src="[c_munis]/c_munis.dff"  cache="false"/>
+	<file src="[c_munis]/c_munis.txd"  cache="false"/>
+
+	<!-- C. Armas -->
+	<file src="[c_armas]/c_armas.dff"  cache="false"/>
+	<file src="[c_armas]/c_armas.txd"  cache="false"/>
+
+	<!-- C. Utils -->
+	<file src="[c_utils]/c_utils.dff"  cache="false"/>
+	<file src="[c_utils]/c_utils.txd"  cache="false"/>
+
+	<!-- C. Smgs -->
+	<file src="[c_smgs]/c_smgs.dff"  cache="false"/>
+	<file src="[c_smgs]/c_smgs.txd"  cache="false"/>
+
+	<!-- Colete -->
+	<file src="[colete]/1.dff"  cache="false"/>
+	<file src="[colete]/1.txd"  cache="false"/>
+
+	<!-- Muni Model -->
+	<file src="[muni_model]/2.dff"  cache="false"/>
+	<file src="[muni_model]/2.txd"  cache="false"/>
+
+</fn>

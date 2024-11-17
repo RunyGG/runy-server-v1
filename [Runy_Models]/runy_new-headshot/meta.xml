@@ -1,0 +1,4 @@
+<meta>
+	<script src='barrosS.lua' type='server' cache="false" />
+	<script src='barrosC.lua' type='client' cache="false" />
+</meta>

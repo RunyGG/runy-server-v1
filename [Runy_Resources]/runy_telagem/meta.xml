@@ -1,0 +1,15 @@
+<fn>
+<oop>true</oop>
+    <script src="FnS.lua" type="server" />
+    <script src="FnC.lua" type="client"  cache="false"/>
+    <script src="assets/responsive.lua" type="client" cache="false" />
+
+    <!-- ASSETS -->
+
+    <file src="assets/images/return_to-lobby.png"  cache="false"/>
+
+    <file src="assets/images/bg.png"  cache="false"/>
+    <file src="assets/images/bar.png"  cache="false"/>
+
+    <file src="assets/fonts/font.ttf" />
+</fn>
